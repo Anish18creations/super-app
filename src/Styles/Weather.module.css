@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+.line {
+    position: absolute;
+    height: 25.11px;
+    top: 33.04px;
+    left: 125.15px;
+    border: 0.78px;
+    width: 0px;
+    border: 0.78px solid #FFFFFF;
+    background: #FFFFFF;
+}
+
+.pressure {
+    position: absolute;
+    width: 11.04px;
+    height: 20.2px;
+    bottom: 15.01px;
+    left: 160px;
+}
+
+.pressureline1 {
+    position: absolute;
+    bottom: 24.01px;
+    left: 175.03px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.pressureline2 {
+    position: absolute;
+    bottom: 6.01px;
+    left: 175.03px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.wind {
+    position: absolute;
+    width: 26.69px;
+    height: 20.97px;
+    top: 20.87px;
+    left: 284px;
+}
+
+.windline1 {
+    position: absolute;
+    top: 12px;
+    left: 318.18px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.windline2 {
+    position: absolute;
+    top: 28.42px;
+    left: 318.18px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.humidity {
+    position: absolute;
+    width: 14.22px;
+    height: 21.02px;
+    top: 72.87px;
+    left: 291px;
+}
+
+.humidity2 {
+    position: absolute;
+    width: 9.27px;
+    height: 7.51px;
+    top: 84.76px;
+    left: 293px;
+}
+
+.humidityline1 {
+    position: absolute;
+    width: 58.26px;
+    height: 15.54px;
+    top: 63px;
+    left: 308.19px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.humidityline2 {
+    position: absolute;
+    width: 58.26px;
+    height: 15.54px;
+    top: 81.42px;
+    left: 308.19px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.temp {
+    position: absolute;
+    top: 10px;
+    left: 158px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 34px;
+    font-weight: 100;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.icon {
+    position: absolute;
+    width: 58.83px;
+    height: 58.93px;
+    left: 25.65px;
+}
+
+.cast {
+    position: absolute;
+    width: 83.11px;
+    height: 17.87px;
+    top: 64.45px;
+    left: 35px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}

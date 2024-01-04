@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+
+.bgn{
+    background: black;
+    width: 100vw;
+    height: 100vh;
+}
+
+.showinfo{
+    position: absolute;
+    width: 367px;
+    height: 199px;
+    top: 4vh;
+    left: 4vw;
+    border-radius: 19px;
+    background: #5746EA;
+}
+
+.notes{
+    position: absolute;
+    width: 327px;
+    height: 350px;
+    top: 4vh;
+    left: 34vw;
+    border-radius: 19px;
+    background: #F1C75B;
+}
+
+.newsapi{
+    position: absolute;
+    width: 363px;
+    height: 573px;
+    top: 2vh;
+    left: 60vw;
+    border: 2px solid #FFFFFF;
+    border-radius: 19px;
+}
+
+.time{
+    position: absolute;
+    width: 27vw;
+    height: 5vh;
+    top: 40vh;
+    left: 4vw;
+    border-radius: 19px 19px 0px 0px;
+    background: #FF4ADE;
+}
+
+.weather{
+    position: absolute;
+    width: 27vw;
+    height: 18vh;
+    top: 45vh;
+    left: 4vw;
+    border-radius: 0px 0px 19px 19px;
+    background: #101744;
+}
+
+.browse{
+    position: absolute;
+    width: 84px;
+    height: 30.12px;
+    bottom: 0vh;
+    right: 2vw;
+    border-radius: 34.78px;
+    background: #148A08;
+    text-align: center;
+    cursor: default;
+}
+
+.txt{
+    font-family: 'DM Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-top: 6px;
+}

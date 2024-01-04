@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+.date{
+    position: absolute;
+    top: 6px;
+    left: 69px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.time{
+    position: absolute;
+    top: 6px;
+    right: 78px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 17px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}

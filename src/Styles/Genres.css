@@ -1,0 +1,771 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+.bg {
+    background: #000000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.titl {
+    position: absolute;
+    width: 143px;
+    height: 19px;
+    top: 13vh;
+    left: 8vw;
+    font-family: 'Single Day', cursive;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #72DB73;
+}
+
+.entertainment {
+    position: absolute;
+    width: 254px;
+    height: 66px;
+    top: 28vh;
+    left: 8vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 38px;
+    font-weight: 700;
+    line-height: 55px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.action {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 10vh;
+    left: 45vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    border-color: #FF5209;
+    background: #FF5209;
+}
+
+.drama {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 10vh;
+    left: 58vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    background: #D7A4FF;
+    border-color: #D7A4FF;
+}
+
+.western {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 40vh;
+    left: 58vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    background: #902500;
+    border-color: #902500;
+}
+
+.music {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 70vh;
+    left: 58vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    background: #E61E32;
+    border-color: #E61E32;
+}
+
+.romance {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 10vh;
+    left: 71vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    background: #148A08;
+    border-color: #148A08;
+}
+
+.horror {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 40vh;
+    left: 71vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    background: #7358FF;
+    border-color: #7358FF;
+}
+
+.fiction {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 70vh;
+    left: 71vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    background: #6CD061;
+    border-color: #6CD061;
+}
+
+.thriller {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 40vh;
+    left: 45vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    background: #84C2FF;
+    border-color: #84C2FF;
+}
+
+.fantasy {
+    position: absolute;
+    width: 150px;
+    height: 151px;
+    top: 70vh;
+    left: 45vw;
+    border-radius: 20px;
+    border-width: 6px;
+    border-style: solid;
+    background: #FF4ADE;
+    border-color: #FF4ADE;
+}
+
+.action-text {
+    position: absolute;
+    top: 12vh;
+    left: 47vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.thriller-text {
+    position: absolute;
+    top: 42vh;
+    left: 47vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.fantasy-text {
+    position: absolute;
+    top: 72vh;
+    left: 47vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.drama-text {
+    position: absolute;
+    top: 12vh;
+    left: 60vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.western-text {
+    position: absolute;
+    top: 42vh;
+    left: 60vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.music-text {
+    position: absolute;
+    top: 72vh;
+    left: 60vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+.romance-text {
+    position: absolute;
+    top: 12vh;
+    left: 73vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.horror-text {
+    position: absolute;
+    top: 42vh;
+    left: 73vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.fiction-text {
+    position: absolute;
+    top: 72vh;
+    left: 73vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0.09em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.action-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 21vh;
+    left: 46vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.thriller-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 51vh;
+    left: 46vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.fantasy-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 81vh;
+    left: 46vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.drama-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 21vh;
+    left: 59vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.western-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 51vh;
+    left: 59vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.music-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 81vh;
+    left: 59vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.romance-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 21vh;
+    left: 72vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.horror-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 51vh;
+    left: 72vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.fiction-img {
+    position: absolute;
+    width: 134.62px;
+    height: 83px;
+    top: 81vh;
+    left: 72vw;
+    border-radius: 11.66px;
+    box-shadow: 0px 2px 4px 0px #0000008C;
+}
+
+.next-page-btn {
+    position: absolute;
+    width: 100px;
+    height: 36px;
+    bottom: 3vh;
+    left: 88vw;
+    border-radius: 38.86px;
+    background: #148A08;
+}
+
+.next-page-text {
+    position: absolute;
+    bottom: 4.5vh;
+    left: 89vw;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.tab1 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top: 70vh;
+    left: 8vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab2 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top:  70vh;
+    left: 18vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab3 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top:  70vh;
+    left: 28vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab4 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top: 78vh;
+    left: 8vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab5 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top: 78vh;
+    left: 18vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab6 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top: 78vh;
+    left: 28vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab7 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top: 86vh;
+    left: 8vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab8 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top: 86vh;
+    left: 18vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab9 {
+    position: absolute;
+    width: 123px;
+    height: 32px;
+    top: 86vh;
+    left: 28vw;
+    border-radius: 31px;
+    background: #148A08;
+}
+
+.tab1,
+.tab1-text,
+.tab1-cross,
+.tab2,
+.tab2-text,
+.tab2-cross,
+.tab3,
+.tab3-text,
+.tab3-cross,
+.tab4,
+.tab4-text,
+.tab4-cross,
+.tab5,
+.tab5-text,
+.tab5-cross,
+.tab6,
+.tab6-text,
+.tab6-cross,
+.tab7,
+.tab7-text,
+.tab7-cross,
+.tab8,
+.tab8-text,
+.tab8-cross,
+.tab9,
+.tab9-text,
+.tab9-cross,
+.warning-symbol,
+.warning-symbol-text {
+    display: none;
+}
+
+.tab1-text {
+    position: absolute;
+    top: 71vh;
+    left: 9vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab2-text {
+    position: absolute;
+    top: 71vh;
+    left: 19vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab3-text {
+    position: absolute;
+    top: 71vh;
+    left: 29vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab4-text {
+    position: absolute;
+    top: 79vh;
+    left: 9vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab5-text {
+    position: absolute;
+    top: 79vh;
+    left: 19vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab6-text {
+    position: absolute;
+    top: 79vh;
+    left: 29vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab7-text {
+    position: absolute;
+    top: 87vh;
+    left: 9vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab8-text {
+    position: absolute;
+    top: 87vh;
+    left: 19vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab9-text {
+    position: absolute;
+    top: 87vh;
+    left: 29vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 100;
+    line-height: 17px;
+    letter-spacing: 0.07em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.tab1-cross {
+    position: absolute;
+    top: 71vh;
+    left: 15vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.tab2-cross {
+    position: absolute;
+    top: 71vh;
+    left: 25vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.tab3-cross {
+    position: absolute;
+    top: 71vh;
+    left: 35vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.tab4-cross {
+    position: absolute;
+    top: 79vh;
+    left: 15vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.tab5-cross {
+    position: absolute;
+    top: 79vh;
+    left: 25vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.tab6-cross {
+    position: absolute;
+    top: 79vh;
+    left: 35vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.tab7-cross {
+    position: absolute;
+    top: 87vh;
+    left: 15vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.tab8-cross {
+    position: absolute;
+    top: 87vh;
+    left: 25vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.tab9-cross {
+    position: absolute;
+    top: 87vh;
+    left: 35vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #085C00;
+    cursor: pointer;
+}
+
+.warning-symbol {
+    position: absolute;
+    bottom: 3vh;
+    left: 8vw;
+}
+
+.warning-symbol-text {
+    position: absolute;
+    bottom: 3vh;
+    left: 11vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FF0000;
+}

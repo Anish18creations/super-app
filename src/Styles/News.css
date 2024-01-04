@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+.news {
+    border-radius: 19px 19px 0px 0px;
+}
+
+.layout {
+    position: absolute;
+    width: 363px;
+    height: 69px;
+    top: 256px;
+    background: rgba(0, 0, 0, 0.74);
+}
+
+.title {
+    position: absolute;
+    width: 353px;
+    height: 30px;
+    top: 266px;
+    left: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: white;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.desc {
+    position: absolute;
+    width: 363px;
+    height: 252px;
+    top: 325px;
+    border-radius: 0px 0px 19px 19px;
+    background: #FFFFFF;
+}
+
+.desc-text {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    height: 232px;
+    width: 343px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 15px;
+    text-align: justified;
+    color: #272727;
+}
+
+.showdate {
+    position: absolute;
+    width: 100px;
+    height: 26px;
+    top: 305px;
+    left: 10px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.dash {
+    position: absolute;
+    top: 305px;
+    left: 109px;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}

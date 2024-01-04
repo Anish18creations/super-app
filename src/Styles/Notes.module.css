@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+
+
+.allnotes{
+    position: absolute;
+    top: 3vh;
+    left: 3vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #000000;
+}
+
+.Notes{
+    position: absolute;
+    width: 20vw;
+    height: 46vh;
+    top: 8vh;
+    left: 3vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #000000;
+    background: #F1C75B;
+    outline: none;
+    border-style: none;
+    border-color: Transparent;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+
+::-webkit-scrollbar{
+    width: 11px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #FFE6A6; 
+    border-radius: 11px;
+}

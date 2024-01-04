@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Single+Day&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz@9..40&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,600&display=swap');
+
+.general{
+    position: absolute;
+    width: 4vw;
+    height: 30vh;
+    top: 1vh;
+    left: 1vw;
+    border-radius: 42.42px;
+    border-width: 3.66px;
+    box-shadow: 0px 2.685014009475708px 2.1480112075805664px 0px #0000004F;
+}
+
+.display-name{
+    position: absolute;
+    top: 3.5vh;
+    left: 6vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.display-email{
+    position: absolute;
+    top: 6vh;
+    left: 6vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.display-user{
+    position: absolute;
+    top: 8.5vh;
+    left: 6vw;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.scroll-detail{
+    position: absolute;
+    width: 18vw;
+    height: 18vh;
+    top: 14vh;
+    left: 5.2vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+
+.display{
+    width: 45%;
+    height: 30%;
+    border-radius: 21px;
+    background: #9F94FF;
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    justify-content: center;
+    color: #FFFFFF;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+p{
+    margin-top: 6px;
+}
