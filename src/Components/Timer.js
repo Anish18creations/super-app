@@ -75,6 +75,8 @@ const Timer = () => {
   const playaudio = () =>{
      new Audio(send).play();
      setaudio('Start');
+     const timer = setTimeout(() => window.location.reload(), 1000);
+     return () => clearTimeout(timer);
   }
 
   return (

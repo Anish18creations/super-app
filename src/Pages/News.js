@@ -56,7 +56,7 @@ function News() {
     <div>
       {newsData.map((newsData , idx) =>
         <div key={idx}>
-          <img src={newsData.urlToImage} width={363} height={325} className='news' alt='' />
+          <img src={newsData.urlToImage} width={363} height={325} className='news' alt='' />*
           <div className='layout'></div>
           <div className='title'>{newsData.title}</div>
           <div className='desc'><p className='desc-text'>{newsData.description}</p></div>
